@@ -6,6 +6,9 @@
 /*  Auteur : Olivier ZARDINI  *  Brutal Deluxe Software  *  Dec 2011  */
 /**********************************************************************/
 
+/* Compiler magic to make strptime and strdup available */
+#define _XOPEN_SOURCE 700
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
